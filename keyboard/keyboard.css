@@ -5,13 +5,12 @@
     width: 100%;
     padding: 5px 0;
     background: #004134;
-    box-shadow: 0 0 50pc rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
     user-select: none;
     transition: bottom 0.4s;
-    height: 100px;
 }
 
-.keyboard-ーhidden {
+.keyboard--hidden {
     bottom: -100%;
 }
 
@@ -41,7 +40,7 @@
 }
 
 .keyboard__key:active {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.12);
 }
 
 .keyboard__key--wide {
@@ -62,7 +61,6 @@
     height: 8px;
     background: rgba(0, 0, 0, 0.4);
     border-radius: 50%;
-
 }
 
 .keyboard__key--active::after {
